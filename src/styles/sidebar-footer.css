@@ -127,7 +127,56 @@ body{
 .section_playlist_contention .section_playlist_button{
     display: flex;
     justify-content: center;
-    background-color: #b3b3b3;
+    background-color: #ffffff;
+    color: black;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: none;
+    padding: 10px;
+    border: 0px;
+    width: 113px;
+    margin-top: 12px;
+}
+
+.section_podcast{
+    display: flex;
+    background-color: #4ec90c;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    color: #f8e7e7;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 8px;
+    padding: 16px 20px;
+    border-radius: 14px;
+}
+
+.section_podcast .section_podcast_contention{
+    display: flex;
+    flex-direction: column;
+}
+
+.section_podcast_contention .text{
+    padding-bottom: 14px;
+    color: rgb(246, 251, 251);
+}
+
+.section_podcast_contention .title{
+    font-weight: 700;
+}
+
+.section_podcast_contention .subtitle{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.section_podcast_contention .section_podcast_button{
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
     color: black;
     border-radius: 20px;
     font-size: 12px;
@@ -168,36 +217,36 @@ body{
     border-radius: 20px;
 }
 .footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(red, rgb(229, 233, 90), #41f704);
+    padding: 15px 40px;
     display: flex;
-    margin: 8px;
-    background: linear-gradient(#f65b5b, #e8ef1b);
-    font-weight: 500;
-    border-radius: 15px;
+    justify-content: space-between;
+    border-radius: 120px;
   }
 
-  .footer .text{
-    align-items: center;
-    font-family: var(--font-dm-sans);
-    margin: 8px;
-    margin-left: 12px;
-    margin-right: 12px;
-    position: relative;
-    left: 10px;
+.footer .text{
+    flex-shrink: 0;
   }
 
-  .footer .text .disclaimer-premium_title{
-    align-items: center;
-    padding: 8px;
-    margin: 8px;
+.footer .disclaimer-premium_title{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 10px;
   }
 
-  .footer .text .disclaimer-premium_subtitle{
+.footer .text .disclaimer-premium_subtitle{
     align-items: center;
     padding: 8px;
     margin: 8px;
   }
 
-  .footer .footer_button button{
+.footer .footer_button button{
     margin: 7px;
     padding: 10px;
     background: linear-gradient(red, rgb(229, 233, 90));
@@ -212,4 +261,8 @@ body{
     text-decoration: none;
     text-transform: none;
   }
+
+#artistList {
+    display: none;
+}
   

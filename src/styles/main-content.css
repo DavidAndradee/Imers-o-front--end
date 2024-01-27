@@ -40,6 +40,7 @@
 .header-login{
     display: flex;
     align-items: center;
+    margin-left: 800px;
 }
 
 .header-search{
