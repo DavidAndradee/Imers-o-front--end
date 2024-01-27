@@ -1,0 +1,215 @@
+body{
+    background: linear-gradient(#f0f810, #41f704, #f40404);
+    /*background-color: rgb(63, 125, 5);*/
+    font-family: var(--font-dm-sans);
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+}
+
+.sidebar_navigation{
+    background-color: #000000;
+    border-radius: 8px;
+    padding: 10px 10px 0 10px;
+}
+
+.sidebar_navigation .logo{
+    background: transparent;
+    display: flex;
+    border-radius: 8px;
+    padding: 18px 0 18px 18px;
+
+}
+
+.sidebar_navigation .logo img{
+    width: 80px;
+}
+
+.sidebar nav ul{
+    margin-top: 20px;
+    padding: 0 20px 10px 20px;
+}
+
+.sidebar ul li{
+    padding: 10px 0;
+
+}
+
+.sidebar nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.library{
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 4px 8px;
+    color: rgb(247, 244, 244);
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.library .libary_content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.library .libary_button{
+    padding: 20px 10px;
+    margin-right: 20px;
+    color: white;
+    background-color: transparent;
+    border: 0px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    display: flex;
+}
+
+.library .libary_content .fa{
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 300;
+    padding-right: 8px;
+}
+
+.library .libary_content .fa-plus{
+    margin: 24px;
+}
+
+.section_playlist{
+    display: flex;
+    background-color: #4ec90c;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    color: #f8e7e7;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 8px;
+    padding: 16px 20px;
+    border-radius: 14px;
+}
+
+.section_playlist .section_playlist_contention{
+    display: flex;
+    flex-direction: column;
+}
+
+.section_playlist_contention .text{
+    padding-bottom: 14px;
+    color: rgb(246, 251, 251);
+}
+
+.section_playlist_contention .title{
+    font-weight: 700;
+}
+
+.section_playlist_contention .subtitle{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.section_playlist_contention .section_playlist_button{
+    display: flex;
+    justify-content: center;
+    background-color: #b3b3b3;
+    color: black;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: none;
+    padding: 10px;
+    border: 0px;
+    width: 113px;
+    margin-top: 12px;
+}
+
+.sidebar .cookies{
+    margin: 25px 20px;
+}
+
+.sidebar .cookies a{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 10p;
+    text-decoration: none;
+}
+
+.sidebar .cookies a:hover{
+    text-decoration: underline;
+}
+
+.languanges .languanges_button{
+    background-color: transparent;
+    border: 1px solid #878787;
+    color: white;
+    cursor: pointer;
+    align-items: center;
+    font-weight: bold;
+    width: 170px;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 20px;
+}
+.footer{
+    display: flex;
+    margin: 8px;
+    background: linear-gradient(#f65b5b, #e8ef1b);
+    font-weight: 500;
+    border-radius: 15px;
+  }
+
+  .footer .text{
+    align-items: center;
+    font-family: var(--font-dm-sans);
+    margin: 8px;
+    margin-left: 12px;
+    margin-right: 12px;
+    position: relative;
+    left: 10px;
+  }
+
+  .footer .text .disclaimer-premium_title{
+    align-items: center;
+    padding: 8px;
+    margin: 8px;
+  }
+
+  .footer .text .disclaimer-premium_subtitle{
+    align-items: center;
+    padding: 8px;
+    margin: 8px;
+  }
+
+  .footer .footer_button button{
+    margin: 7px;
+    padding: 10px;
+    background: linear-gradient(red, rgb(229, 233, 90));
+    border-radius: 20px;
+    color: white;
+    position: absolute;
+    right: 80px;
+    width: 150px;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: none;
+  }
+  
